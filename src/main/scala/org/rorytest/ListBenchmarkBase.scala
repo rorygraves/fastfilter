@@ -33,15 +33,6 @@ abstract class ListBenchmarkBase {
     benchmark(longList, allOutFn)
   }
 
-  @Benchmark
-  def longLastHalfInFilter(): Unit = {
-    benchmark(longList, longLastHalfInFn)
-  }
-
-  @Benchmark
-  def shortLastHalfInFilter(): Unit = {
-    benchmark(shortList, shortLastHalfInFn)
-  }
 
   @Benchmark
   def shortAllOutFilter(): Unit = {
