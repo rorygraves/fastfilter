@@ -1,5 +1,6 @@
 Reimplementation of faster List.filter
 
+```
 [info] Benchmark                                 Mode  Cnt       Score       Error   Units
 [info] FastListBenchmark.longAllIn              thrpt    5     914.651 ±    26.432  ops/ms
 [info] FastListBenchmark.longAllOutFilter       thrpt    5     947.758 ±   174.388  ops/ms
@@ -21,3 +22,4 @@ Reimplementation of faster List.filter
 [info] ListBenchmark.shortLastHalfInFilter      thrpt    5   34404.041 ±  3125.127  ops/ms
 [info] ListBenchmark.shortLastItemFilters       thrpt    5   22159.374 ±  1421.590  ops/ms
 [info] ListBenchmark.shortMiddleOut             thrpt    5   22594.923 ±  2819.162  ops/ms
+```
